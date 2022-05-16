@@ -1,0 +1,29 @@
+.st_site_footer {
+  
+  backdrop-filter: blur(250px);
+  .st_footer_text {
+    .st_footer_brand {
+      margin-bottom: 25px;
+      display: inline-block;
+    }
+    h2,
+    p {
+      margin-bottom: 20px;
+    }
+    a {
+    }
+  }
+  .st_copyright {
+    .st_copyright_top {
+      height: 1px;
+      background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%);
+      opacity: 0.5;
+    }
+    .st_copyright_bottom {
+      height: 75px;
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

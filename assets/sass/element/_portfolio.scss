@@ -1,0 +1,33 @@
+.st_preview_box{
+  display: block;
+  width: 100%;
+  height: 300px;
+  border: 1px solid rgba($accent,0.3);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 5s;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  &:hover{
+    background-position: bottom;
+  }
+  &::before{
+    position: absolute;
+    content: "Demo";
+    bottom: 10px;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    background-image: linear-gradient(116.85deg, rgba(252, 70, 107, 0.7) 0%, rgba(63, 94, 251, 0.7) 100%);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.st_portfolio_1{
+  background-image: url('../img/page/02_Home 1_Default.jpg');
+}
+.st_portfolio_2{
+  background-image: url('../img/page/03_Home 2.jpg');
+}

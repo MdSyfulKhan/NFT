@@ -1,0 +1,29 @@
+.st_main_header{
+  height: 80px;
+  background-color: #110D2E;
+  font-weight: 500;
+  .st_main_header_in{
+    display: flex;
+    justify-content: space-between;
+  }
+  .st_main_header_right{
+    ul{
+      li{
+        display: inline-block;
+        margin-right: 35px;
+        &:last-child{
+          margin: 0;
+        }
+        a{
+          text-decoration: none;
+        }
+        &.active,&:hover{
+          color: $accent;
+        }
+      }
+    }
+    .st_btn{
+      margin-left: 70px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.st_heading_content.st_style1 {
+  h2 {
+    font-size: 35px;
+  }
+  p {
+    margin-bottom: 15px;
+  }
+  .st_btn_group {
+    display: inline-block;
+    padding: 4px 5px;
+    background: linear-gradient(
+      116.85deg,
+      rgba(252, 70, 107, 0.15) 0%,
+      rgba(63, 94, 251, 0.15) 100%
+    );
+    backdrop-filter: blur(250px);
+    border-radius: 46px;
+    li {
+      display: inline-block;
+      &.active {
+        display: inline-block;
+        background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%);
+        border-radius: 64px;
+      }
+      a {
+        padding: 6px 30px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.st_heading_content.st_style2 {
+  h2 {
+    background: linear-gradient(116.85deg, #fc466b 0%, #3f5efb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+}

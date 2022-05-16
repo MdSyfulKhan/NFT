@@ -1,0 +1,38 @@
+.st_btn.st_style1,.st_btn.st_style2 {
+  display: inline-flex;
+  justify-content: center;
+  padding: 12px 36px;
+  border-radius: 52px;
+  border: none;
+  outline: none;
+  transition: all 0.4s ease;
+  text-decoration: none;
+  text-align: center;
+}
+.st_btn.st_style2{
+  border-radius: 10px;
+  backdrop-filter: blur(250px);
+}
+//button style-1
+.st_btn.st_style1.st_color1{
+  background-color: $accent;
+  color: #fff;
+}
+.st_btn.st_style1.st_color2{
+background-image: linear-gradient(116.85deg, #FC466B 0%, #3F5EFB 100%);
+  color: #fff;
+}
+
+//button style-2
+.st_btn.st_style2.st_color1{
+  background-color: rgba($accent, 0.1);
+  color: #fff;
+}
+.st_border{
+  border: 1px solid rgba($accent, 0.3)!important;
+}
+.st_hero{
+  .row{
+    margin: 0 50px;
+  }
+}
