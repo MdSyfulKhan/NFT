@@ -1,11 +1,11 @@
 .st_features{
-
   .st_single_feature{
     display: block;
     position: relative;
     border: 1px solid rgba($accent, 0.3);
-    min-height: 200px;
+    height: 200px;
     border-radius: 5px;
+    overflow: hidden;
     .st_feature_text{
       position: absolute;
       top: 70%;

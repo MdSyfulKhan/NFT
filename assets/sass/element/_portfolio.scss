@@ -13,9 +13,8 @@
   &:hover{
     background-position: bottom;
   }
-  &::before{
+  .st_portfolio_title{
     position: absolute;
-    content: "Demo";
     bottom: 10px;
     width: 50%;
     padding: 5px;
@@ -25,9 +24,125 @@
     transform: translateX(-50%);
   }
 }
+
+
+//home images
 .st_portfolio_1{
-  background-image: url('../img/page/02_Home 1_Default.jpg');
+  background-image: url('../img/portfolio/Home1.jpg');
 }
 .st_portfolio_2{
-  background-image: url('../img/page/03_Home 2.jpg');
+  background-image: url('../img/portfolio/Home2.jpg');
+}
+.st_portfolio_3{
+  background-image: url('../img/portfolio/Home3.jpg');
+}
+.st_portfolio_4{
+  background-image: url('../img/portfolio/Home4.jpg');
+}
+.st_portfolio_5{
+  background-image: url('../img/portfolio/Home5.jpg');
+}
+.st_portfolio_39{
+  background-image: url('../img/portfolio/comming_soon.jpg');
+}
+
+// other's image
+.st_portfolio_6{
+  background-image: url('../img/portfolio/Blog.jpg');
+}
+.st_portfolio_7{
+  background-image: url('../img/portfolio/Blog Details.jpg');
+}
+.st_portfolio_8{
+  background-image: url('../img/portfolio/Blog With Sidebar.jpg');
+}
+.st_portfolio_9{
+  background-image: url('../img/portfolio/Collection Details.jpg');
+}
+.st_portfolio_10{
+  background-image: url('../img/portfolio/Collection.jpg');
+}
+.st_portfolio_11{
+  background-image: url('../img/portfolio/Connect Wallet.jpg');
+}
+.st_portfolio_12{
+  background-image: url('../img/portfolio/Contact.jpg');
+}
+.st_portfolio_13{
+  background-image: url('../img/portfolio/Create.jpg');
+}
+.st_portfolio_14{
+  background-image: url('../img/portfolio/Explore Details.jpg');
+}
+.st_portfolio_15{
+  background-image: url('../img/portfolio/Explore2.jpg');
+}
+.st_portfolio_16{
+  background-image: url('../img/portfolio/Explore3.jpg');
+}
+.st_portfolio_17{
+  background-image: url('../img/portfolio/Register.jpg');
+}
+.st_portfolio_18{
+  background-image: url('../img/portfolio/Sign In.jpg');
+}
+.st_portfolio_19{
+  background-image: url('../img/portfolio/Account Settings.jpg');
+}
+.st_portfolio_20{
+  background-image: url('../img/portfolio/Edit Profile User End.jpg');
+}
+.st_portfolio_21{
+  background-image: url('../img/portfolio/User Activity.jpg');
+}
+.st_portfolio_22{
+  background-image: url('../img/portfolio/User Items.jpg');
+}
+.st_portfolio_23{
+  background-image: url('../img/portfolio/User Wallet.jpg');
+}
+.st_portfolio_24{
+  background-image: url('../img/portfolio/Forget Password.jpg');
+}
+.st_portfolio_25{
+  background-image: url('../img/portfolio/How It Works.jpg');
+}
+.st_portfolio_26{
+  background-image: url('../img/portfolio/Activity.jpg');
+}
+.st_portfolio_27{
+  background-image: url('../img/portfolio/About Us.jpg');
+}
+.st_portfolio_28{
+  background-image: url('../img/portfolio/FAQ.jpg');
+}
+.st_portfolio_29{
+  background-image: url('../img/portfolio/Help Center.jpg');
+}
+.st_portfolio_30{
+  background-image: url('../img/portfolio/Help Center 2.jpg');
+}
+.st_portfolio_31{
+  background-image: url('../img/portfolio/Help Support Details.jpg');
+}
+.st_portfolio_32{
+  background-image: url('../img/portfolio/Live Auction.jpg');
+}
+.st_portfolio_33{
+  background-image: url('../img/portfolio/Menu.jpg');
+}
+.st_portfolio_34{
+  background-image: url('../img/portfolio/Place A Bid History.jpg');
+}
+.st_portfolio_35{
+  background-image: url('../img/portfolio/Popup - History.jpg');
+}
+.st_portfolio_36{
+  background-image: url('../img/portfolio/Privacy Policy.jpg');
+}
+.st_portfolio_37{
+  background-image: url('../img/portfolio/Terms & Conditions.jpg');
+}
+.st_portfolio_38{
+  background-image: url('../img/portfolio/404.jpg');
 }

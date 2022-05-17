@@ -1,28 +1,32 @@
-.st_hero{
-  
+.st_hero {
   position: relative;
-  &::before{
+  &::before {
     position: absolute;
     content: "";
-   
+
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
     z-index: -1;
   }
-  .st_hero_content{
-    h1{
+  .st_hero_content {
+    h1 {
       font-size: 72px;
       font-weight: 900;
       line-height: 130%;
     }
-    p{
+    p {
       margin-bottom: 30px;
     }
-    .st_btn_group{
-      margin-bottom: 65px;
+    .st_btn.st_style1.st_color2 {
+      margin-right: 25px;
+    }
+    @media screen and (max-width: 991px) {
+      .st_btn.st_style1.st_color2 {
+        margin: 0;
+        margin-bottom: 10px;
+      }
     }
   }
-  
 }
