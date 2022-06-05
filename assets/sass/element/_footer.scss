@@ -1,17 +1,5 @@
 .st_site_footer {
-  position: relative;
-  background: linear-gradient(
-    116.85deg,
-    rgba(252, 70, 107, 0.5) 5.48%,
-    rgba(63, 94, 251, 0.5) 105.48%
-  );
-  backdrop-filter: blur(250px);
-  &::before {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #C4C4C4 100%);
-  }
+  
   .st_footer_text {
     .st_footer_brand {
       margin-bottom: 25px;
